@@ -1,0 +1,16 @@
+h1{
+    color: #55ff00;
+}
+p{
+    color: #001580;
+    font-size:100px;
+    font-family: sans-serif;
+    font-weight:99;
+    line-height: 1.5;
+    text-decoration: none;
+    text-align: justify;/
+    text-transform:none;
+    font-style: italic;
+    background-color: #14fff7;
+    width:500px;
+}
