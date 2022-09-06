@@ -1,0 +1,34 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 1200px;
+    float: none;
+    margin: 0 auto;
+}
+.restaurant{
+    float: left;
+    width:12%;
+}
+.burgers {
+    float: left;
+    width:10%;
+}
+.pizza{
+    float: left;
+    width: 10%;
+}
+.telephone{
+    float: right;
+    width:38%;
+}
+.food{
+    float:left;
+    width:50%;
+}
+.menu{
+    float:left;
+    width: 38%;
+}
