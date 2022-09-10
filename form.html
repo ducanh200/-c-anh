@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/form.css"/>
+</head>
+<body>
+
+<div class="content">
+   <form method="get" action="#">
+  <label>full name</label>
+  <input type="text"name="fullname" placeholder="enter name..."/>
+  <label>email</label>
+  <input type="email"name="youremail" placeholder="enter email..."/>
+  <label>password</label>
+  <input type="password"name="pwd" placeholder="enter password..."/>
+  <label>number</label>
+  <input type="number"name="number"placeholder="enter number..."/>
+  <label>date</label>
+  <input type="date"name="brth" placeholder="enter birthday..."/>
+  <label>week</label>
+  <input type="week"name="week" placeholder="enter week..."/>
+
+  <label>gender</label>
+  <label><input type="radio"value="male"name="gender"/>nam</label>
+  <label><input type="radio"value="female"name="gender"/>nữ</label>
+  <label><input type="radio"value="other"name="gender"/>khác</label>
+
+  <label>my cv</label>
+  <input type="file"name="cv"placeholder="nộp cv..."/>
+</br>
+  <label><input type="checkbox"name="confirm"/></label>
+    Tôi đã đọc và đồng ý với điều khoản
+  </br>
+  <label>City</label>
+  <select name="yourcity">
+  <option value="hanoi" >Hà Nội</option>
+    <option value="saigon" >Sài Gòn</option>
+    <option value="cantho">Cần Thơ</option>
+  </select>
+     </br>
+     <label>Tiểu sử bản thân</label>
+     <textarea name="motabanthan" rows="10" cols="100"> </textarea>
+     <button type="submit">Submit</button>
+     <button type="reset">Reset</button>
+     <button type="button" >Button</button>
+</form>
+</div>
+</body>
+</html>

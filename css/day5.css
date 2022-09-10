@@ -1,0 +1,56 @@
+
+span{
+    color: red;
+}
+body{
+    width: 486px;
+    height: 588px;
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+    box-shadow: 0 0 1px;
+}
+.text{
+    height: 70px;
+    width: 486px;
+    background-color: #00FA9A;
+
+}
+h1{
+    background-color: #008b4f;
+    width: 50%;
+    text-align: center;
+}
+span{
+    color: red;
+}
+
+input[name=Firstname]{
+    padding: 12px;
+    width: 161px;
+}
+input[name=Lastname]{
+    padding: 12px;
+    margin: 0 6px;
+    width: 161px;
+}
+input[name=Email]{
+    padding: 12px;
+    width: 362px;
+}
+input[name=Phone]{
+    padding: 12px;
+    width: 362px;
+}
+
+button{
+    padding: 12px;
+    width: 102px;
+}
+
+nav{
+    margin: 0 auto;
+    line-height: 58px;
+    padding: 25px 45px;
+    font-weight: 500;
+}

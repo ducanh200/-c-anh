@@ -1,7 +1,8 @@
 div{
-    width:calc(25% - 30px);
+    width:70%;
     transition:all 300ms;
     box-sizing:border-box;
+    text-align: center;
 }
 h1 {
     width: 500px;
@@ -10,8 +11,5 @@ img{
     max-width: 50%;
     padding: 5px 50px;
     float: right;
-}
-body{
-    text-align-all: center;
 }
 

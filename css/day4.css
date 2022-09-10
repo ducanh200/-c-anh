@@ -12,7 +12,7 @@
     float: left;
     width:12%;
 }
-.burgers {
+.burgers{
     float: left;
     width:10%;
 }
@@ -31,4 +31,10 @@
 .menu{
     float:left;
     width: 38%;
+}
+img{
+    width:300px;
+}
+body{
+    margin: 0 auto;
 }
