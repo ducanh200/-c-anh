@@ -1,0 +1,9 @@
+div{
+    float:left;
+    border :1px solid black;
+    padding: 50px;
+    color: #f00d0d;
+    background-color: #b8f3f2;
+    font-size: 20px;
+    font-family:sans-serif;
+}
