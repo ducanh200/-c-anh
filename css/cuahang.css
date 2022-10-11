@@ -19,3 +19,7 @@ div{
 div:hover {
     transform: scale(1.05); /*độ nổi của ảnh khi đưa chuột qua*/
 }
+
+body {
+    margin: 200px;
+}
