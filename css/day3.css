@@ -14,8 +14,8 @@ div{
     transition:all 300ms;
 }
 div:hover{
-    transform:rotate(5deg);/*dộ ngiêng của border khi đưa chuột qua */
-    /*transform :scale(1.15)*độ nổi của ảnh khi đưa chuột qua*/
+    /*transform:rotate(5deg);/*dộ ngiêng của ảnh khi đưa chuột qua */
+    transform :scale(1.05);/*độ nổi của ảnh khi đưa chuột qua*/
 }
 img{
   max-width:100%;
