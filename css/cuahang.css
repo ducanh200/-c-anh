@@ -24,10 +24,6 @@ div {
     background-color: #decfcf;
 }
 
-div:hover {
-    transform: scale(1.10); /*độ nổi của ảnh khi đưa chuột qua*/
-}
-
 body {
     margin: 50px;
 }
@@ -40,5 +36,5 @@ img {
     margin-top: auto;
     border: 1px solid #ea0248;
     background-color: #989393;
-    width: 1375px;
+    width: 1020px;
 }
