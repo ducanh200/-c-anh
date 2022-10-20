@@ -8,7 +8,7 @@ h1 {
 
 h2 {
     color: #da2727;
-    text-align: left;
+
 }
 
 div {
@@ -26,6 +26,10 @@ div {
 
 body {
     margin: 50px;
+}
+
+a {
+    font-size: 30px;
 }
 
 img {
