@@ -2,10 +2,66 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>test</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <link href="css/test.css" rel="stylesheet"/>
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+          integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" rel="stylesheet">
+
 </head>
 <body>
+<div class="cate-rating" id="cate-rating">
+    <div class="stars">
+        <a class="star" id="star-1"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-2"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-3"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-4"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-5"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-6"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-7"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-8"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-9"><span class="glyphicon glyphicon-star"></span></a>
+        <a class="star" id="star-10"><span class="glyphicon glyphicon-star"></span></a>
+        <p id="vote-desc">Mời quý khách đánh giá chất lượng sản phẩm và dịch vụ của cửa hàng!^^</p>
+    </div>
+    <div class="clearfix"></div>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    $(document).ready(function () {
+        /*
+         * Hiệu ứng khi rê chuột lên ngôi sao
+         */
+        $('a.star').mouseenter(function () {
+            if ($('#cate-rating').hasClass('rating-ok') == false) {
+                var eID = $(this).attr('id');
+                eID = eID.split('-').splice(-1);
+                $('a.star').removeClass('vote-active');
+                for (var i = 1; i <= eID; i++) {
+                    $('#star-' + i).addClass('vote-hover');
+                }
+            }
+        }).mouseleave(function () {
+            if ($('#cate-rating').hasClass('rating-ok') == false) {
+                $('a.star').removeClass('vote-hover');
+            }
+        });
+
+        /*
+         * Sự kiện khi cho điểm
+         */
+        $('a.star').click(function () {
+            if ($('#cate-rating').hasClass('rating-ok') == false) {
+                var eID = $(this).attr('id');
+                eID = eID.split('-').splice(-1).toString();
+                for (var i = 1; i <= eID; i++) {
+                    $('#star-' + i).addClass('vote-active');
+                }
+                $('p#vote-desc').html('<span class="blue">' + eID + ' (' + eID * 10 + '%)</span> &middot; ' + 1 + ' đánh giá');
+                $('#cate-rating').addClass('rating-ok');
+            }
+        });
+    });
+</script>
 
 </body>
 </html>
