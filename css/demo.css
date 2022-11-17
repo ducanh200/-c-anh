@@ -11,12 +11,12 @@
 
 ul {
     font-size: 20px;
-    background-color: #0e0d0d;
+    background-color: #5e5858;
 }
 
 li {
     list-style: none;
-    background-color: #0e0d0d;
+    background-color: #5e5858;
     font-size: 30px;
 }
 
@@ -74,7 +74,7 @@ p {
 .logo {
     padding: 10px;
     box-sizing: border-box;
-    float: none;
+    float: top;
     margin: auto;
     border-top: 10px;
     margin: 10px; /*khoảng cách của ảnh*/
