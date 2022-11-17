@@ -84,14 +84,19 @@ p {
 
 .ba {
     float: right;
+    font-size: 17px;
 }
 
 .hai {
     float: right;
+    font-size: 17px;
+
 }
 
 .mot {
     float: right;
+    font-size: 17px;
+
 }
 
 .trang {
@@ -100,5 +105,12 @@ p {
     text-align: center;
 }
 
+h4 {
+    color: #b02a37;
+}
+
+h2 {
+    color: #0f5132;
+}
 
 
