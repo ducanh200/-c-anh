@@ -36,7 +36,7 @@ li {
     transform: none;
     transition: background-color;
     width: 50%;
-    margin: 200px;
+    margin: auto;
 }
 
 .anh {
@@ -58,16 +58,17 @@ img {
 }
 
 .p-3 m-0 border-0 bd-example {
-    margin: 10px;
+    margin: auto;
 }
 
 body {
-    margin: 50px;
+    margin: 10px auto;
     background-color: #b8f3f2;
 }
 
 p {
     background-color: #b8f3f2;
+    margin: 10px;
 }
 
 .logo {
@@ -83,18 +84,18 @@ p {
 
 .ba {
     float: right;
-    font-size: 17px;
+    font-size: 12px;
 }
 
 .hai {
     float: right;
-    font-size: 17px;
+    font-size: 12px;
 
 }
 
 .mot {
     float: right;
-    font-size: 17px;
+    font-size: 12px;
 
 }
 
@@ -110,6 +111,7 @@ h4 {
 
 h2 {
     color: #0f5132;
+    margin: 10px;
 }
 
 
