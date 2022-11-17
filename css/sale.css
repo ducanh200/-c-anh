@@ -1,8 +1,27 @@
-body{
-    background-color: #fafafa;
-    font-size: 15px;
-    font-family: sans-serif;
-    text-align: left;
-    font-weight: 400;
-    line-height: 1.35;
+div {
+    width: calc(25% - 30px);
+    float: left;
+    border: 1px solid #0228ea; /*đường viền*/
+    margin: 10px 15px; /*khoảng cách của ảnh*/
+    padding: 10px 15px; /*khoảng cách giữa khung và boder*/
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px #0b164f;
+    border-radius: 6px; /* chỉnh độ tròn của góc*/
+    transition: all 300ms;
+    background-color: #decfcf;
 }
+
+h2 {
+    color: #b02a37;
+    text-align: left;
+}
+
+body {
+    margin: 50px;
+}
+
+img {
+    width: 100%;
+}
+
+
