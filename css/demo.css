@@ -44,7 +44,7 @@ li {
     float: left;
     border: 1px solid #0228ea; /*đường viền*/
     margin: 10px 15px; /*khoảng cách của ảnh*/
-    padding: 10px 15px; /*khoảng cách giữa khung và boder*/
+    padding: 1px 1px; /*khoảng cách giữa khung và boder*/
     box-sizing: border-box;
     box-shadow: 0px 0px 5px #0b164f;
     border-radius: 6px; /* chỉnh độ tròn của góc*/
