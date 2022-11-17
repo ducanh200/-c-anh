@@ -50,6 +50,8 @@ li {
     border-radius: 6px; /* chỉnh độ tròn của góc*/
     transition: all 300ms;
     background-color: #decfcf;
+    max-width: 100%;
+
 
 }
 
