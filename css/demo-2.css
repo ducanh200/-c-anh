@@ -57,6 +57,7 @@ body {
     width: 400px;
     background: #0e0d0d;
     float: left;
+    height: 413px;
     min-height: 300px;
 }
 
@@ -72,13 +73,14 @@ body {
 }
 
 main {
-    height: auto;
+
 }
 
 .main-left {
     width: 300px;
     background: #d6eee3;
     float: left;
+    height: 3100px;
     min-height: 400px;
 }
 
@@ -99,15 +101,59 @@ main {
 
 .main-right {
     width: 700px;
-    background: #008b4f;
+    background: #99efca;
     float: right;
     min-height: 400px;
     height: auto;
 }
 
+.main-right p {
+    color: #b60e0e;
+}
+
+
+
+h2 {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.anh {
+    width: calc(50% - 30px);
+    float: left;
+    border: 1px solid #0228ea; /*đường viền*/
+    margin: 10px 15px; /*khoảng cách của ảnh*/
+    padding: 5px 5px; /*khoảng cách giữa khung và boder*/
+    box-sizing: border-box;
+    box-shadow: 0px 0px 1px #0b164f;
+    border-radius: 6px; /* chỉnh độ tròn của góc*/
+    transition: all 300ms;
+    background-color: #f3df64;
+    max-width: 100%;
+
+
+}
+
+.anh:hover {
+    transform: scale(1.05);
+}
+
+img {
+    max-width: 100%;
+}
+
+.footer h3 {
+    color: black;
+    text-align: left;
+    float: left;
+    margin-top: auto;
+    margin: 30px;
+
+}
+
 .footer {
-    background: black;
-    height: 60px;
+    background: #737373;
+    height: 100px;
     color: #f0f0f0;
     width: 1000px;
     clear: left;
@@ -115,22 +161,4 @@ main {
     text-align: center;
 
 
-}
-
-h2 {
-    margin: 0 auto;
-    text-align: center;
-}
-
-. anh {
-    width: calc(25% - 30px);
-    float: left;
-    border: 10px solid #0228ea; /*đường viền*/
-    margin: 10px 15px; /*khoảng cách của ảnh*/
-    padding: 1px 1px; /*khoảng cách giữa khung và boder*/
-    box-sizing: border-box;
-    box-shadow: 0px 0px 5px #0b164f;
-    border-radius: 6px; /* chỉnh độ tròn của góc*/
-    transition: all 300ms;
-    background-color: #decfcf;
 }
