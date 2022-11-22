@@ -42,7 +42,12 @@ body {
 }
 
 .menu-top ul li a.active {
-    background: #1949b5;
+    background: #13ada8;
+
+}
+
+.menu-top ul li a.sign {
+    background: #0228ea;
 
 }
 
@@ -94,7 +99,7 @@ main {
     display: block;
     height: 40px;
     line-height: 50px;
-    color: #061560;
+    color: #da503e;
     padding: 10px 30px 10px 30px;
 
 }
@@ -116,6 +121,7 @@ main {
 h2 {
     margin: 0 auto;
     text-align: center;
+    color: #0228ea;
 }
 
 .anh {
@@ -160,5 +166,23 @@ img {
     line-height: 60px;
     text-align: center;
 
+
+}
+
+.footer li {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.footer li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 5px;
+    color: #061560;
 
 }
