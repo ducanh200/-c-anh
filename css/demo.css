@@ -116,4 +116,10 @@ h2 {
     margin: 10px;
 }
 
+.menu {
+    margin: 10px auto;
+    width: 250px;
+    float: left;
+}
+
 
