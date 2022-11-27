@@ -1,5 +1,5 @@
 body {
-    width: 1200px;
+    width: 1000px;
     margin: 0 auto;
     font-size: 20px;
     height: auto;
@@ -10,7 +10,7 @@ body {
     height: 101px;
     background: #13ada8;
     margin: 0 auto;
-    width: 1200px;
+    width: 1000px;
 }
 
 .menu {
@@ -21,7 +21,7 @@ body {
 
 .menu-left {
     float: left;
-    width: 1000px;
+    width: 800px;
     height: 50px;
     min-height: 40px;
     background: #4d5154;
@@ -44,16 +44,16 @@ body {
 .main-left {
     float: left;
     background: #faa84b;
-    width: 300px;
+    width: 260px;
     margin: 0 auto;
-    height: 1383px;
+    height: 1305px;
     min-height: 300px;
 }
 
 .main-right {
     float: right;
     background: #f5d080;
-    width: 900px;
+    width: 740px;
     min-height: 300px;
 }
 
@@ -61,7 +61,7 @@ body {
     height: auto;
     margin: 0 auto;
     background: black;
-    width: 1200px;
+    width: 1000px;
     clear: left;
 }
 
@@ -137,7 +137,7 @@ body {
     line-height: 50px;
     color: #590707;
     padding: 10px 30px 10px 30px;
-    text-align: center;
+    text-align: justify;
 
 }
 
@@ -166,7 +166,7 @@ h2 {
 }
 
 .anh img:hover {
-    transform: scale(1.23);
+    transform: scale(1.35);
 }
 
 img {
@@ -190,7 +190,7 @@ img {
 }
 
 .anh h3 a:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
 
 }
 
@@ -204,7 +204,7 @@ img {
 .footer-right {
     height: 180px;
     float: right;
-    width: 500px;
+    width: 300px;
     background: black;
 }
 
