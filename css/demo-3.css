@@ -46,7 +46,7 @@ body {
     background: #faa84b;
     width: 300px;
     margin: 0 auto;
-    height: 1228px;
+    height: 1383px;
     min-height: 300px;
 }
 
@@ -58,9 +58,9 @@ body {
 }
 
 .footer {
-    height: 50px;
+    height: auto;
     margin: 0 auto;
-    background: #9fdbe7;
+    background: black;
     width: 1200px;
     clear: left;
 }
@@ -166,7 +166,7 @@ h2 {
 }
 
 .anh img:hover {
-    transform: scale(1.5);
+    transform: scale(1.23);
 }
 
 img {
@@ -185,12 +185,51 @@ img {
     color: #0e0d0d;
     border-radius: 5px;
     background-color: #14fff7;
+    box-shadow: 0px 0px 20px #001580;
 
 }
 
 .anh h3 a:hover {
     transform: scale(1.05);
 
+}
+
+.footer-left {
+    height: 180px;
+    float: left;
+    width: 700px;
+    background: black;
+}
+
+.footer-right {
+    height: 180px;
+    float: right;
+    width: 500px;
+    background: black;
+}
+
+.footer-left h3 {
+    color: white;
+    margin-left: 20px;
+
+}
+
+.footer-left h3 a {
+    text-decoration: none;
+    color: #0228ea;
+}
+
+.footer-right h4 {
+    color: white;
+    float: right;
+    margin-top: 70px;
+    margin-right: 30px;
+
+
+}
+
+.footer-right h4 a {
+    color: white;
 }
 
 
